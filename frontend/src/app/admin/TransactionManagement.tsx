@@ -176,11 +176,11 @@ export default function TransactionManagement() {
               onChange={(e) => handleFilterChange('paymentMethod', e.target.value || undefined)}
             >
               <option value="">Tất cả</option>
-              {/* 👇 Sửa value khớp 100% với Enum Java */}
+              
               <option value="CASH">Tiền mặt</option>
-              <option value="CREDITCARD">Thẻ tín dụng</option> {/* Code cũ có thể là CREDIT_CARD */}
-              <option value="EWALLET">Ví điện tử</option>      {/* Code cũ có thể là E_WALLET */}
-              <option value="BANKTRASFER">Chuyển khoản</option> {/* Code cũ là BANK_TRANSFER. Lưu ý: Backend bạn đang viết sai chính tả TRASFER */}
+              <option value="CREDITCARD">Thẻ tín dụng</option>
+              <option value="EWALLET">Ví điện tử</option>
+              <option value="BANKTRASFER">Chuyển khoản</option>
             </select>
           </div>
 
